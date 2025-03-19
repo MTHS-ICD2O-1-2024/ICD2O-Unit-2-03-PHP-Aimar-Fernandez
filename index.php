@@ -56,6 +56,7 @@
               <label class="mdl-textfield__label" for="name-input">Street name...</label>
             </div>
           </form>
+          <br />
           <!-- Raised button with ripple -->
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
