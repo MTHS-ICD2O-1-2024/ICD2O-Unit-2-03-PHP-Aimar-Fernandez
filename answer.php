@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--ICD2O Unit 1-08 HTML-->
+<!--ICD2O Unit 2-03 PHP-->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
@@ -33,8 +33,9 @@
       </header>
       <main class="mdl-layout__content">
         <div>
-          <img src="./images/notebook-animation.svg" alt="Laptop Image">
+          <img src="./images/street (1).jpg" alt="Street sign">
         </div>
+        <br />
         <div class="page-content">
           <?php
             $name = $_GET["name"];
