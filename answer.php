@@ -23,7 +23,6 @@
     <title>The Program, PHP</title>
   </head>
   <body>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <br />
@@ -33,14 +32,14 @@
       </header>
       <main class="mdl-layout__content">
         <div>
-          <img src="./images/street (1).jpg" alt="Street sign">
+          <img src="./images/street.jpg" alt="Street sign">
         </div>
         <br />
         <div class="page-content">
           <?php
             $name = $_GET["name"];
             $number = $_GET["number"];
-            echo "<p>Your address is: " . $number . $name . "</p>";
+            echo "<p>Your address is: " . $number . " " . $name . "</p>";
           ?>
         </div>
         <br />

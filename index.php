@@ -31,7 +31,7 @@
       </header>
       <main class="mdl-layout__content">
         <div>
-          <img src="./images/street (1).jpg" alt="Street sign">
+          <img src="./images/street.jpg" alt="Street sign">
         </div>
         <br />
         <h3>Please enter the following:</h3>
@@ -43,19 +43,17 @@
               class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
               <input 
                 class="mdl-textfield__input" type="text" 
-                pattern="-?[0-9]*(\.[0-9]+)?" id="number" name="number"
+                pattern="-?[0-9]*(\.[0-9]+)?" name="number"
               />
               <label class="mdl-textfield__label" for="number-input"> Street number...</label>
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
-          </form>
           <p>Street name</p>
           <!-- Textfield with Floating Label -->
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" id="name" name="name">
+              <input class="mdl-textfield__input" type="text" name="name">
               <label class="mdl-textfield__label" for="name-input">Street name...</label>
             </div>
-          </form>
           <br />
           <!-- Raised button with ripple -->
           <button
